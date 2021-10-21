@@ -3,7 +3,7 @@
 %}
 
 DIGIT       [0-9]
-INTEGER     ([+-])?({DIGIT})+
+INTEGER     ({DIGIT})+
 BLANK   [' ', '\t', '\n']
 AL  (.)+
 

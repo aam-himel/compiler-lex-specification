@@ -555,9 +555,10 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 12 ".\\partsOfSpeech.l"
+#line 11 ".\\partsOfSpeech.l"
 
-#line 561 "lex.yy.c"
+
+#line 562 "lex.yy.c"
 
 	if ( yy_init )
 		{
@@ -643,7 +644,7 @@ do_action:	/* This label is used only to access EOF actions. */
 case 1:
 YY_RULE_SETUP
 #line 13 ".\\partsOfSpeech.l"
-{printf("%s is a Verb, len = %d\n", yytext, yyleng);}
+{printf("%s is a Verb\n", yytext);}
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
@@ -670,7 +671,7 @@ YY_RULE_SETUP
 #line 19 ".\\partsOfSpeech.l"
 ECHO;
 	YY_BREAK
-#line 674 "lex.yy.c"
+#line 675 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 

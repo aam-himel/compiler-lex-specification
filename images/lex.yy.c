@@ -386,9 +386,9 @@ static char *yy_last_accepting_cpos;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "verb.l.txt"
+#line 1 ".\\verb.l"
 #define INITIAL 0
-#line 2 "verb.l.txt"
+#line 2 ".\\verb.l"
     #include<stdlib.h>
 #line 394 "lex.yy.c"
 
@@ -541,7 +541,7 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 9 "verb.l.txt"
+#line 9 ".\\verb.l"
 
 
 #line 548 "lex.yy.c"
@@ -629,22 +629,22 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 11 "verb.l.txt"
+#line 11 ".\\verb.l"
 {printf("%s is a Verb\n", yytext);}
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 12 "verb.l.txt"
+#line 12 ".\\verb.l"
 {printf("");}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 13 "verb.l.txt"
+#line 13 ".\\verb.l"
 {printf("%s is not a Verb\n", yytext);}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 15 "verb.l.txt"
+#line 15 ".\\verb.l"
 ECHO;
 	YY_BREAK
 #line 651 "lex.yy.c"
@@ -1533,7 +1533,7 @@ int main()
 	return 0;
 	}
 #endif
-#line 15 "verb.l.txt"
+#line 15 ".\\verb.l"
 
 
 int main(void)

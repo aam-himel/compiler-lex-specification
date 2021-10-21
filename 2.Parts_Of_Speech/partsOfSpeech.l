@@ -10,7 +10,7 @@ AL  (.)+
 
 %%
 
-{VERB}  {printf("%s is a Verb, len = %d\n", yytext);}
+{VERB}  {printf("%s is a Verb\n", yytext);}
 {ADVERB}  {printf("%s is a Adverb\n", yytext);}
 {PREPOSITION}  {printf("%s is a Preposition\n", yytext);}
 {BLANK} {printf("");}
